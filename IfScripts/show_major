@@ -1,0 +1,23 @@
+var studentName = "Dede";
+var studentMajor = "HIST";
+
+if (studentMajor == "CSCI" )
+{
+    console.log(" Major " + studentMajor + " the advising location is Sheppard Hall, Room 314 ");
+}
+else if (studentMajor == "BIOL")
+{
+  console.log(" Major " + studentMajor + " the advising location is Science Building, Room 310 ");
+}
+else if (studentMajor == "ENG")
+{
+console.log(" Major " + studentMajor + " the advising location is Kerr Hall, Room 201 ");
+}
+else if (studentMajor == "HIST")
+{
+    console.log(" Major " + studentMajor + " the advising location is Kerr Hall, Room 114 ");
+}
+else if (studentMajor == "MKT")
+{
+    console.log( " Major " + studentMajor + " the advising location is Westly Hall, Room 310 ");
+}

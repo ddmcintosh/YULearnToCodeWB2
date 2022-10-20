@@ -1,6 +1,19 @@
 var studentName = "Dede";
 var studentMajor = "HIST";
 
+//
+if (studentMajor != "CSCI" || "BIOL" || "ENG" || "HIST" || "MKT")
+{
+var major = "<UKNOWN>"
+}
+
+if (studentMajor != "CSCI" || "BIOL" || "ENG" || "HIST" || "MKT")
+{
+    vardepartmentOffice = "<UNKNOWN>"
+}
+
+//////
+
 if (studentMajor == "CSCI" )
 {
     console.log(" Major " + studentMajor + " the advising location is Sheppard Hall, Room 314 ");
